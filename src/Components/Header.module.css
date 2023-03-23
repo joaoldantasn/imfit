@@ -5,7 +5,7 @@
   z-index: 100;
   background: white;
   top: 0px;
-  background-color: #dddd;
+  background-color: #111;
 }
 
 .nav{
@@ -20,7 +20,7 @@
 }
 
 .login{
-  color: #333;
+  color: #fff;
   display: flex;
   align-items: center;
 }
@@ -30,7 +30,6 @@
   display: inline-block;
   width: 25px;
   height: 25px;
-  background: url('../Assets/usuario.svg') no-repeat center center;
   margin-left: .1rem;
   position: relative;
   top: -2px;
