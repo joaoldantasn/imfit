@@ -13,7 +13,7 @@ const App = () => {
         <UserStorage>
           <Header />
           <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="//*" element={<Login />} />
             <Route path="/login/*" element={<Login />} />
           </Routes>
           <Footer />

@@ -6,6 +6,7 @@ import useForm from '../Hooks/useForm';
 import UserContext from '../../UserContext';
 import Error from '../../Helper/Error';
 import styles from './LoginForm.module.css';
+import { ReactComponent as Imfit } from '../../Assets/imfitlogo.svg';
 
 const LoginForm = () => {
   const username = useForm();
@@ -21,7 +22,7 @@ const LoginForm = () => {
 
   return (
     <section className="animeLeft">
-      <h1 className="title">Login</h1>
+      <Imfit className={styles.logo} />
       <form className={styles.form} onSubmit={handleSubmit}>
         <Input
           type="text"
@@ -38,7 +39,7 @@ const LoginForm = () => {
         {loading ? (
           <button disabled>Carregando...</button>
         ) : (
-          <Button>Entrar</Button>
+          <Button className={styles.button}>Entrar</Button>
         )}
         <Error error={error} />
       </form>

@@ -1,0 +1,17 @@
+.form > button{
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragrafo > div{
+  margin-top:2rem ;
+}
+
+.paragrafo > div > p{
+  text-align: center;
+}
+
+.paragrafo > div > p> span{
+  color: #01B1FD;
+}
