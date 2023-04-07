@@ -1,0 +1,10 @@
+.user{
+  min-height: 100vh;
+  position: relative;
+}
+
+.toolbar{
+  width: 90%;
+  position: absolute;
+  bottom: 100px;
+}
