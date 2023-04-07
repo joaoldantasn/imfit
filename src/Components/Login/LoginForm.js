@@ -47,7 +47,7 @@ const LoginForm = () => {
         Esqueceu a Senha?
       </Link>
       <div className={styles.cadastro}>
-        <Link className={styles.cadastresse} to="/login/criar">
+        <Link className={styles.cadastresse} to="/criar">
           Não tem uma conta? Cadastre-se
         </Link>
       </div>
