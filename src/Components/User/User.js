@@ -7,6 +7,7 @@ import UserTreinos from './UserTreinos';
 import UserPhotos from './UserPhotos';
 import styles from './User.module.css';
 import UserHeaderNav from './UserHeaderNav';
+//import Home from '../Home';
 
 const User = () => {
   return (
