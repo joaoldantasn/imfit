@@ -2,7 +2,7 @@
   margin: auto;
   height: 36rem;
   border-radius: .2rem;
-  background: white;
+  background: black;
   display: grid;
   grid-template-columns: 36rem 20rem;
   grid-template-rows: auto 1fr auto;
@@ -41,13 +41,35 @@
   .img{
     grid-row: 1;
   }
-
+}
   .author{
     opacity: 0.5;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: blue;
+    color: white;
   }
-}
+
+  .author a:hover{
+    text-decoration: underline;
+  }
+
+  .visualizacoes::before{
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 10px;
+    margin-right: .5rem;
+    background: url('../../Assets/visualizacao.svg');
+  }
+
+  .attributes{
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+

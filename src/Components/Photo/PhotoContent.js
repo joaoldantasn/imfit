@@ -19,9 +19,9 @@ const PhotoContent = ({ data }) => {
           <h1 className="title">
             <Link to={`/foto/${photo.id}`}>{photo.title}</Link>
           </h1>
-          <div className={styles.attributes}>
+          <section className={styles.attributes}>
             <p>{photo.legenda}</p>
-          </div>
+          </section>
         </div>
       </div>
       <PhotoComments id={photo.id} comments={comments} />
